@@ -1,0 +1,55 @@
+CONFIRM:
+  name: '&aConfirmar'
+  lore: [ ]
+FILL:
+  name: '&8'
+  lore: [ ]
+PREVIOUS_PAGE:
+  name: '&aPágina Anterior'
+  lore: [ ]
+NEXT_PAGE:
+  name: '&aPróxima Página'
+  lore: [ ]
+PREVIOUS_IN_QUEUE:
+  name: '&aAnterior'
+  lore: [ ]
+NEXT_IN_QUEUE:
+  name: '&aPróximo'
+  lore: [ ]
+BACK:
+  name: '&aVoltar'
+  lore: [ ]
+CRAFTING_RECIPE_DISPLAY:
+  name: '&a&lFabricação&f #name#'
+  lore:
+    - '{conditions}'
+    - '{conditions}&8Condições:'
+    - '{crafting_time}'
+    - '{crafting_time}&7Tempo de Fabricação: &c#crafting-time#&7s'
+    - ''
+    - '&8Ingredientes:'
+    - '#ingredients#'
+    - ''
+    - '&eClique esquerdo para fabricar!'
+    - '&eClique direito para pré-visualizar!'
+UPGRADING_RECIPE_DISPLAY:
+  name: '&e&lAprimorar&f #name#'
+  lore:
+    - '{conditions}'
+    - '{conditions}&8Condições:'
+    - ''
+    - '&8Ingredientes:'
+    - '#ingredients#'
+    - ''
+    - '&eClique esquerdo para fabricar!'
+    - '&eClique direito para pré-visualizar!'
+QUEUE_ITEM_DISPLAY:
+  name: '&6&lFila de Espera&f #name#'
+  lore:
+    - '{ready}&7&oEste item foi fabricado com sucesso.'
+    - '{queue}&7&oEste item está na fila de fabricação.'
+    - '{queue}'
+    - '{queue}&7Tempo restante: &c#left#'
+    - ''
+    - '{ready}&eClique para reivindicar!'
+    - '{queue}&eClique para cancelar.'
